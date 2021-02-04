@@ -17,17 +17,32 @@ function generateMarkdown(data) {
   }
 
   return `# ${data.title}
+  
+  ${finalBadge}
+  ## Descriptions
+
+  ## Table of Contents
+
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
+    
   ## Installation
   
   ${data.installation}
   
-  ## Badges
+  ## Usage
 
-  ${finalBadge}
+  ## License
+
+  This application is covered by the ${data.license} license.
+
+  ## Contrubuting
+
+  ## Tests
+
+  ## Questions
 `;
 }
 
