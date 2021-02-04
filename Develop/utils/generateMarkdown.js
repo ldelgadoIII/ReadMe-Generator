@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Credits](#credits)
+  * [Credits](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
     
@@ -47,7 +47,7 @@ function generateMarkdown(data) {
 
   This application is covered by the ${data.license} license.
 
-  ## Contrubuting
+  ## Contributing
 
   ${data.credits}
 
