@@ -2,11 +2,11 @@
 function generateMarkdown(data) {
   let finalBadge;
   switch (data.license) {
-    case "Apache":
+    case "Creative Commons":
       finalBadge =
         "[![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0)";
       break;
-    case "Creative Commons":
+    case "GNU":
       finalBadge =
         "[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)";
       break;

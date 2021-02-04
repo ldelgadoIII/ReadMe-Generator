@@ -36,7 +36,7 @@ const questions = [
     type: "list",
     message: "Which license would you like to use?",
     name: "license",
-    choices: ["Apache", "Creative Commons", "MIT", "None"],
+    choices: ["Creative Commons", "GNU", "MIT", "None"],
   },
   {
     type: "input",
@@ -59,7 +59,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.appendFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log("Commit Completed!")
+    err ? console.error(err) : console.log("README Created!")
   );
 }
 
