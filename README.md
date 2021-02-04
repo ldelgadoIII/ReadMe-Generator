@@ -21,6 +21,8 @@ The user must have node installed. Afterwards, the user must install inquirer.
 
 ## Usage
 
+![README Gif](Develop/readme.gif)
+
 ## License
 
 This application is covered by the GNU license.
