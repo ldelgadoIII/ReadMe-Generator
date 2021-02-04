@@ -19,23 +19,39 @@ const questions = [
   },
   {
     type: "input",
-    message: "How do you install it?",
-    name: "title",
+    message: "What are the steps required to install your project?",
+    name: "installation",
   },
   {
     type: "input",
-    message: "How is this project used?",
-    name: "title",
+    message: "Please provide instructions and examples for use.",
+    name: "usage",
   },
   {
     type: "input",
-    message: "What are the contribution guidelines?",
-    name: "title",
+    message: "Who were you collaborators if any?",
+    name: "credits",
+  },
+  {
+    type: "list",
+    message: "Which license would you like to use?",
+    name: "license",
+    choices: ["Apache", "GNU", "MIT", "None"],
   },
   {
     type: "input",
-    message: "What are the test instructions?",
-    name: "title",
+    message: "What is your GitHub username?",
+    name: "username",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
+  },
+  {
+    type: "input",
+    message: "What tests would you like to include?",
+    name: "tests",
   },
 ];
 
